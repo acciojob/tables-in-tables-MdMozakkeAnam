@@ -7,8 +7,68 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
-      <!-- Your code here -->
+    <table border="1" style="width: 100%; height: 100%">
+      <!-- Row 1: Nested Table 2 (Col 1), Nested Table 1 (Col 2) -->
+      <tr>
+        <!-- Col 1: Nested Table 2 -->
+        <td style="width: 50%;">
+          <table border="1" style="width: 100%; height: 100%">
+            <tr>
+              <th colspan="2">Nested Table 2</th>
+            </tr>
+            <tr>
+              <th>Column 1</th>
+              <th>Column 2</th>
+            </tr>
+          </table>
+        </td>
+        
+        <!-- Col 2: Nested Table 1 -->
+        <td style="width: 50%;">
+          <table border="1" style="width: 100%; height: 100%">
+            <tr>
+              <th colspan="2">Nested Table 1</th>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <ul>
+                  <li>List item 1</li>
+                  <li>List item 2</li>
+                  <li>List item 3</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      
+      <!-- Row 2: Nested Table 3 (Col 1), Nested Table 4 (Col 2) -->
+      <tr>
+        <!-- Col 1: Nested Table 3 -->
+        <td>
+          <table border="1" style="width: 100%; height: 100%">
+            <tr>
+              <th colspan="2">Nested Table 3</th>
+            </tr>
+            <tr>
+              <th><a href="">Nested Table</a></th>
+              <th>Demo Continued</th>
+            </tr>
+          </table>
+        </td>
+        
+        <!-- Col 2: Nested Table 4 -->
+        <td>
+          <table border="1" style="width: 100%; height: 100%">
+            <tr>
+              <th colspan="2">Nested Table 4</th>
+            </tr>
+            <tr>
+              <th style="background-color: black; color: white;">HTML</th>
+            </tr>
+          </table>
+        </td>
+      </tr>
     </table>
   </body>
 </html>
